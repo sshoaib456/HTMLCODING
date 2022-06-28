@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NodeMCU UI</title>
+
+<body>
+<style>
+    h1 {
+        color: #27455D;
+
+    }
+    h2,h3 {
+        color: #2D8126;
+    }
+
+    #city{
+        background: #4332D1;
+    }
+    body{
+        text-align: center;
+        background-image: url(ashar.jpg);
+    }
+
+</style>
+</head>
+
+    <h1>Internet of Things</h1>
+    <h2>Internet of Things</h2>
+    <h3>Internet of Things</h3>
+    <h4>Internet of Things</h4>
+    <h5>Internet of Things</h5>
+    <h6>Internet of Things</h6>
+    <p>What is IoT? The Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.</p>
+    <p><b>Internet of Things</b><i>IoT</i></p>
+    <p><strong>Internet of Things</strong><em>IoT</em></p>
+    <ul>
+        <li>Karachi</li>
+        <li>Lahore</li>
+        <li>Islamabad</li>
+        <li>Peshawar</li>
+    </ul>
+    <ol>
+        <li>Karachi</li>
+        <li>Lahore</li>
+        <li>Islamabad</li>
+        <li>Peshawar</li>
+    </ol>
+    <ol>
+        <ul>
+        <li>Karachi</li>
+        <li>Lahore</li>
+    </ul>
+    <li>Islamabad</li>
+    <li>Peshawar</li>
+    </ol>
+
+    <p>
+    <ul>
+        <li><a href="http://www.google.com">Google</a></li>
+        <li><a href="http://www.github.com">Github</a></li>
+        <li><a href="http://www.linkedin.com">LinkedIn</a></li>
+
+    </ul>
+    </p>
+    <p>
+        <ul>
+            <li><a href="http://www.google.com" target="_blank">Google</a></li>
+            <li><a href="http://www.github.com"target="_blank">Github</a></li>
+            <li><a href="http://www.linkedin.com"target="_blank">LinkedIn</a></li>
+            
+        </ul>
+        </p>
+    <img src="car.jpg" alt="" width="600" height="580"/>
+    <figcaption>A Car</figcaption>
+    <br><br><br>
+
+    <table>
+        <tr>
+            <th>Days</th>
+            <td>Saturday</td>
+            <td>Sunday</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>20</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <th>RollNumbers</th>
+            <td>11002</td>
+            <td>11003</td>
+        </tr>
+    </table>
+    <br><br>
+    <table>
+        <thead>
+        <tr>
+            <th>SNo</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Section</th>
+        </tr>
+        </thead>
+    <body>
+        <tr>
+            <th>1</th>
+            <td>Ali</td>
+            <td>IoT</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Babar</td>
+            <td>CCN</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Zain</td>
+            <td>OB</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>Zubair</td>
+            <td>EPSP</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td>Qasim</td>
+            <td>CA</td>
+            <td>C</td>
+        </tr>
+     
+</table> 
+        <form>
+            <p>User name:
+                <input type="text" name="user name" size="15"
+                maxlength="30" autocomplete="off"/>
+            </p>
+            <p>Pasword:
+                <input type="password" name="password" size="15"
+                maxlength="30" autocomplete="off"/>
+            </p>
+            <p>Please select your Gender<br/>
+               <input type="radio" name="gender" value="male" checked="checked"/>Male
+               <input type="radio" name="gender" value="female"/>Female 
+            </p>
+            <p>Please select your subject<br/>
+                <input type="checkedbox" name="subject" value="IOT"/>IOT
+                <input type="checkedbox" name="subject" value="DS"/>DS
+                <input type="checkedbox" name="subject" value="AI"/>AI
+                <input type="checkedbox" name="subject" value="EPSP"/>EPSP 
+             </p>
+             <p>country
+                <select name="country">
+                    <option value="pakistan">pakistan</option>
+                    <option value="india">india</option>
+                    <option value="china">china</option>
+                    <option value="usa">usa</option>
+                </select>
+             </p>
+             <p>more then one in list
+                <select name="instruments" size="3" mutiple="multiple">
+                    <option value="guitar">guitar</option>
+                    <option value="drums">drums</option>
+                    <option value="keyboard">keyboard</option>
+                    <option value="bass">bass</option>
+                </select>
+             </p>
+                <p>upload your resume</p>
+                    <input type="file" name="resume"/>
+                    <br><br>
+                    <input type="submit" value="sunmit">
+                    <br><br><br>
+                <label for="user name">user name:</label>
+                <input type="text" name="user name" required="required"></input>
+                <br><br>
+                <label for="password">password</label>
+                <input type="password" name="password" required="required"/>
+                <br><br>
+                <input type="submit" value="submit"/>
+                <p>please enter your email address:</p>
+                <input type="email" name="email"/>
+
+        </form> 
+    
+    
+
+</html>
+</body>  
